@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-
 //import
 import Immediate from '../../components/immediate';
+
 
 export default function Home() {
   return (

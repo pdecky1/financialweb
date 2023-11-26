@@ -1,6 +1,7 @@
 import { link } from 'fs'
 import Link from 'next/link'
 import React from 'react'
+import Image from 'next/image'
 
 
 export const countryData =
@@ -4230,9 +4231,9 @@ const immediate = () => {
                     <h1 className='font-bold text-4xl'>Book Your  Free Consultation</h1>
                     <div className=' flex md:flex-row flex-col pt-5 gap-x-5 gap-y-5'>
                         <div className='md:w-1/2 w-full flex flex-col'>
-                            <img src="/pic-2.png" alt="" />
+                            <Image src="/pic-2.png" alt="" />
                             <div className=' flex flex-row items-center pt-20 gap-x-6'>
-                                <img src="/mail-icon.png" alt=""  className=' scale-125' />
+                                <Image src="/mail-icon.png" alt=""  className=' scale-125' />
                                 <div className='flex flex-col'>
                                     <h1 className=' font-semibold'>EMAIL</h1>
                                     <h1 className=' text-[#84FF9F]'>info@CAIMAN</h1>

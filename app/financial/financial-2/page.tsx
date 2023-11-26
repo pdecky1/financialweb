@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Immediate from '../../../components/immediate';
+import Image from 'next/image'
 
 
 

@@ -58,7 +58,7 @@ export default function Home() {
       <div className=' w-full h-full text-[#505050]'>
         <div className=' container mx-auto flex md:flex-row flex-col justify-center items-center py-20 gap-5'>
           <div className='md:w-1/2 w-full flex justify-center'>
-            <img src="/pic-1.png" alt="" />
+            <Image src="/pic-1.png" alt="" />
           </div>
           <div className='md:w-1/2 w-full flex flex-col gap-y-10 mx-5 px-5'>
               <div className=' w-full p-5 flex flex-col shadow-shadow-inner-2'>

@@ -27,7 +27,7 @@ export default function Home() {
 
             <div className=' flex flex-col items-center'>
               <div className='relative top-10 border-4 border-[#4F4F4F] w-[92px] h-[92px] bg-white rounded-full flex justify-center items-center'>
-                <img src="/bank-icon.png" alt="" />
+                <Image src="/bank-icon.png" alt="" />
               </div>
               <div className='max-w-[390px] h-[270px] bg-[#06633C] rounded-xl flex justify-center items-center py-10 px-20'>
                   <h1 className=' text-black text-3xl font-bold text-center'>Banking <br/><span className=' font-semibold'>Services</span></h1>
@@ -35,7 +35,7 @@ export default function Home() {
               <a href="/bank/bank">
                 <div className=' flex flex-row items-center gap-x-5 pt-5'>
                   <div className=' w-5 h-5 flex items-center'>
-                    <img src="/next-icon.png" alt=""  className=' max-h-fit max-w-fit' />
+                    <Image src="/next-icon.png" alt=""  className=' max-h-fit max-w-fit' />
                   </div>
                   <h1 className=' text-[#1F572B] text-xl font-semibold'>See more</h1>
                 </div>
@@ -44,7 +44,7 @@ export default function Home() {
 
             <div className=' flex flex-col items-center'>
               <div className='relative top-10 border-4 border-[#4F4F4F] w-[92px] h-[92px] bg-white rounded-full flex justify-center items-center'>
-                <img src="/crypto-icon.png" alt="" />
+                <Image src="/crypto-icon.png" alt="" />
               </div>
               <div className='max-w-[390px] h-[270px] bg-[#69C25B] rounded-xl flex justify-center items-center py-10 px-20'>
                   <h1 className=' text-black text-3xl font-bold text-center'>Crypto<br/><span className=' font-semibold'>Services</span></h1>
@@ -52,7 +52,7 @@ export default function Home() {
               <a href="/crypto/crypto">
                 <div className=' flex flex-row items-center gap-x-5 pt-5'>
                   <div className=' w-5 h-5 flex items-center'>
-                    <img src="/next-icon.png" alt=""  className=' max-h-fit max-w-fit' />
+                    <Image src="/next-icon.png" alt=""  className=' max-h-fit max-w-fit' />
                   </div>
                   <h1 className=' text-[#1F572B] text-xl font-semibold'>See more</h1>
                 </div>
@@ -61,7 +61,7 @@ export default function Home() {
 
             <div className=' flex flex-col items-center'>
               <div className='relative top-10 border-4 border-[#4F4F4F] w-[92px] h-[92px] bg-white rounded-full flex justify-center items-center'>
-                <img src="/financial-icon.png" alt="" />
+                <Image src="/financial-icon.png" alt="" />
               </div>
               <div className='max-w-[390px] h-[270px] bg-[#9AE094] rounded-xl flex justify-center items-center py-10 px-20'>
                   <h1 className=' text-black text-3xl font-bold text-center'>Financial<br/><span className=' font-semibold'>Services</span></h1>
@@ -69,7 +69,7 @@ export default function Home() {
               <a href="/financial/financial">
                 <div className=' flex flex-row items-center gap-x-5 pt-5'>
                   <div className=' w-5 h-5 flex items-center'>
-                    <img src="/next-icon.png" alt=""  className=' max-h-fit max-w-fit' />
+                    <Image src="/next-icon.png" alt=""  className=' max-h-fit max-w-fit' />
                   </div>
                   <h1 className=' text-[#1F572B] text-xl font-semibold'>See more</h1>
                 </div>
@@ -92,14 +92,14 @@ export default function Home() {
               <a href="">
                 <div className=' flex flex-row items-center gap-x-5 pt-5'>
                   <div className=' w-5 h-5 flex items-center'>
-                    <img src="/next-icon.png" alt=""  className=' max-h-fit max-w-fit' />
+                    <Image src="/next-icon.png" alt=""  className=' max-h-fit max-w-fit' />
                   </div>
                   <h1 className=' text-[#1F572B] text-xl font-semibold'>See more</h1>
                 </div>
               </a>
           </div>
           <div className='md:w-1/2 w-full flex justify-center'>
-            <img src="/pic.png" alt="" />
+            <Image src="/pic.png" alt="" />
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import React from 'react'
 
 const footer = () => {
@@ -9,7 +10,7 @@ const footer = () => {
                 <div className='flex flex-col gap-y-5'>
                     <div className='flex flex-row gap-x-3'>
                         <div className=' w-1/12 flex items-center'> 
-                            <img src="/location-icon.png" alt="" className=''/>
+                            <Image src="/location-icon.png" alt="" className=''/>
                         </div>
                         <div className='w-5/6'>
                             <p>Registered Office of Incorporation, 16192 Coastal Highway Lewes, Delaware 19958-9776</p>
@@ -17,7 +18,7 @@ const footer = () => {
                     </div>
                     <div className='flex flex-row gap-x-3'>
                         <div className=' w-1/12 flex items-center'> 
-                            <img src="/location-icon.png" alt="" className=''/>
+                            <Image src="/location-icon.png" alt="" className=''/>
                         </div>
                         <div className='w-5/6'>
                             <p>Business Location: 109 Bismarckia Way - George Town Cayman Islands</p>
@@ -25,7 +26,7 @@ const footer = () => {
                     </div>
                     <div className='flex flex-row gap-x-3'>
                         <div className=' w-1/12 flex items-center'> 
-                            <img src="/location-icon.png" alt="" className=''/>
+                            <Image src="/location-icon.png" alt="" className=''/>
                         </div>
                         <div className='w-5/6'>
                             <p>Operational Headquarter: 12 Collyer Quay, Ocean Financial Centre, Singapore 049319</p>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 //import
 import Immediate from '../../../components/immediate';
 
@@ -78,13 +78,13 @@ const page = () => {
       <div className=' w-full h-full text-[#505050]'>
         <div className=' container mx-auto flex md:flex-row flex-col justify-center items-center py-20 gap-5'>
           <div className='md:w-1/2 w-full flex justify-center'>
-            <img src="/pic-4.png" alt="" />
+            <Image src="/pic-4.png" alt="" />
           </div>
           <div className='md:w-1/2 w-full flex flex-col gap-y-5 mx-5 px-5'>
             {visaData.map (( isi ) => {
               return <div className=' flex flex-row items-center'>
               <div className=' w-5 h-5 flex items-center'>
-                <img src="/checkbox-icon.png" alt=""  className=' max-h-fit max-w-fit' />
+                <Image src="/checkbox-icon.png" alt=""  className=' max-h-fit max-w-fit' />
               </div>
               <p className=' pl-4 font-medium text-lg '>{isi.desc}</p>
             </div>
