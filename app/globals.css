@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: white;
+}
+
+.dropdown:focus-within .dropdown-menu {
+  opacity:1;
+  transform: translate(0) scale(1);
+  visibility: visible;
+}
+
+
+.tab {
+  overflow: hidden;
+  }
+  .tab-content {
+  max-height: 0;
+  transition: all 0.5s;
+  }
+  input:checked + .tab-label .test {
+      background-color: #fff;
+  }
+  input:checked + .tab-label .test svg {
+      transform: rotate(180deg);
+      stroke: #000000;
+  }
+  input:checked + .tab-label::after {
+  transform: rotate(90deg);
+  }
+  input:checked ~ .tab-content {
+  max-height: 100vh;
+  }
+
+  .required:after {
+    content:" *";
+    color: red;
+  }
